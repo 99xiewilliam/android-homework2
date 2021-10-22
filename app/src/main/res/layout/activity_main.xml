@@ -5,11 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/my_toolbar"-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--        android:elevation="4dp"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+<!--        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
 
     <ListView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:id="@+id/chatrooms" />
+        android:id="@+id/chatrooms"
+        android:clickable="true"
+        android:focusable="true" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
